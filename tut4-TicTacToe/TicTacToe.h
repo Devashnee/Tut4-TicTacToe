@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 #include <cstdlib>
-#include <cstring>
+#include <string>
 
 using namespace std;
 
@@ -20,7 +20,6 @@ public:
 	void print();    
 	void move1(int);
 	void move2(int);
-	bool over();
 	bool Win();
 	bool Draw();
 	void reset();
